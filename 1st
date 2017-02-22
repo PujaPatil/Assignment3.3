@@ -1,0 +1,31 @@
+Components of hadoop 2.x are--
+
+HDFS
+It is the storage part of the hadoop.
+hdfs is sub divided in 
+
+1. Master daemon-
+It is called namenode  and it is a single high end admin machine.
+It is a single machine that acts as a master node.
+
+2. Back up Master daemon-
+in haddop 1.x there was no backup so in hadoop 2.x we have a backup master daemon to support high availability.
+It is Daemon that handles all the process whenever there is any node failure.
+
+3.slave daemon-
+it is called a data node.
+slave nodes function on commodity machines
+slave nodes are many in number.
+
+MAP REDUCE
+also called as yarn(yet another resource negotiator)
+it is sub divided in -
+ 
+ 1.master daemon 
+ It is also called as a resource manager.
+ it is a single machine that handles all the processing part.
+ 
+ 2.slave daemon-
+ it is called as a node manager.
+ they are multiple  machines that serve the processing request of master daemon.
+ 
